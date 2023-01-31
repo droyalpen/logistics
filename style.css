@@ -346,6 +346,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+  font-size: x-large;
+  font-weight: bolder;
   transition: var(--transition);
 }
 
@@ -853,7 +855,7 @@ body {
    */
 
   .header-contact {
-    color: var(--white);
+    color: var(--black);
     display: flex;
     align-items: center;
     gap: 20px;
@@ -1117,7 +1119,7 @@ body {
 
   .navbar-item:not(:last-child) { border-block-end: none; }
 
-  .navbar-link { color: var(--white); }
+  .navbar-link { color: var(--black); }
 
   .navbar-link:is(:hover, :focus) { background-color: transparent; }
 
